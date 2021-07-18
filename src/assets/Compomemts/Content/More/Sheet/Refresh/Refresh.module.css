@@ -1,0 +1,9 @@
+.body {
+    background-color: gainsboro;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: white;
+}

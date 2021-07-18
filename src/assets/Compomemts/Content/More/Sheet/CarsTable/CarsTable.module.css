@@ -1,0 +1,13 @@
+.body {
+
+}
+
+.body td {
+    padding: 5px;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.body .name {
+    text-align: left;
+}

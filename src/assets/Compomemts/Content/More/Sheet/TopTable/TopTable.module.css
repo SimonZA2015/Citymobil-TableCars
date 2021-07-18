@@ -1,0 +1,17 @@
+.body {
+    background: rgba(240, 242, 244, 0.5);
+}
+
+.body th {
+    padding: 5px;
+}
+
+@media (max-width: 600px) {
+    .body th {
+        padding: 0;
+    }
+
+    .body {
+        width: 100vw;
+    }
+}

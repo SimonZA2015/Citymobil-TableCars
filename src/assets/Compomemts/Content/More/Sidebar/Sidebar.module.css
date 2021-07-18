@@ -1,0 +1,17 @@
+.body {
+    background-color: #E4E5E6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 224px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .body {
+        visibility: hidden;
+    }
+}

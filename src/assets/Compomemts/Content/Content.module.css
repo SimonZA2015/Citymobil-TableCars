@@ -1,0 +1,15 @@
+.body {
+    width: max-content;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 224px calc(100% - 224px);
+}
+
+@media (max-width: 600px) {
+    .body {
+        grid-template-columns: 0 100%;
+        display: block;
+        width: 100%;
+    }
+
+}
